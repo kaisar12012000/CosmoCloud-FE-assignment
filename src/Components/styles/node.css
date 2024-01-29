@@ -1,0 +1,31 @@
+.node {
+    border: 1.5px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+}
+
+.btn {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #ddd;
+    margin-inline: 10px;
+    /* width: 10%; */
+}
+
+.btn:hover {
+    background-color: #aaa;
+    transition-property: all;
+    transition-duration: .5s;
+}
